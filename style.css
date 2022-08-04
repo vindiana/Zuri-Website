@@ -1,0 +1,140 @@
+@import url("http://fonts.cdnfonts.com/css/averta-blackitalic");
+.main {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Averta-Regular',sans-serif;
+}
+header {
+font-size: 1.5em;
+}
+
+.links{
+  color: red; 
+  text-decoration: none; 
+  cursor: auto;
+}
+.link1{
+    color: white;
+    background-color: rgb(235,0,0);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+/* .link1:focus {
+    border-color:transparent;
+     border: 0;
+     color: red;
+    -webkit-appearance: none;} */
+
+    .link2 {
+     color:red;
+    background-color: rg;
+    padding: 10px 15px;
+    text-decoration: none; 
+    border: 1px solid #e7332b;
+    }
+    .link1:hover {
+background-color: #ffffff;
+color: #e7332b;
+border: 1px solid #e7332b;
+    }
+    .link1:hover a{
+        color: #ffffff;
+    }
+.link2:hover{
+    color: #ffffff;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+}
+.link2:hover a{
+    color: #e7332b;
+}
+.section1 {
+   margin-top: 5em; 
+}
+    
+span {
+color: #e7332b;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+
+.header-left {
+    width: 40%;
+    margin-left: 50px;
+}
+.header-right{
+    width: 60%;
+}
+
+nav {
+    position: sticky;
+  width: 70%;
+    padding: 5px;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.talent-recruit {
+    background-color:#e7332b;
+    color: white;
+    padding: 15px 25px;
+    /* width: 100%; */
+    border: none;
+}
+ #home {
+    width: 100%;
+    display:flex;
+}
+.divide {
+ 
+}
+.head-image{
+ 
+}
+.box1 {
+    justify-content: center !important;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    display: block;
+    font-family: 'Averta-Regular',sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.d-flex {
+    display: flex !important;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    display: block;
+    /* vertical-align: middle; */
+    /* text-align: center; */
+
+}
+.image {  
+    width: 50%;
+}
+.Main{
+    padding-left: 50px;
+    padding-right:50px;}
