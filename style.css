@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/averta-blackitalic");
+@import url(https://www.cdnfonts.com/css/graphik.font);
 .main {
     width: 100%;
     justify-content: center;
@@ -150,6 +151,9 @@ nav a {
     /* text-align: center; */
 
 }
+.hey {
+    margin-top: 9rem;
+}
 .image {  
     width: 70%;
 }
@@ -160,6 +164,7 @@ nav a {
 
     .heading {
         display: flex;
+        margin-top: 13rem;
     }
     .heading img {
        /* margin-left: -4rem;  */
@@ -289,3 +294,47 @@ nav a {
     -webkit-transform: translateY(-15px)!important;
     transform: translateY(-15px)!important;
 }
+ .why-us{
+    background-color: rgb(255, 248, 229);
+    padding-bottom: 80px;
+}
+.girl1 {
+    padding-left: 40px;
+   border-radius: 0 0 10px 0;
+   height: 225px;
+   width: 27%;
+   min-height: 200px;
+   margin: 10px;
+   margin-top: 40px;
+   box-shadow:1px 1px 2px #e0e0e0;
+   background-color: rgb(255, 255, 255);
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.girl1:hover {
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+}
+
+.part2{
+    padding: 10px;
+     text-align: center;
+}
+.d-flex2 {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+.main-div1 {
+    display: flex;
+  width: 100%;
+    vertical-align: middle;
+    padding-left: 21rem;
+    padding-bottom: 20rem;
+   }
