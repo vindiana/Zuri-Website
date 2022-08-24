@@ -23,7 +23,9 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#impacts">Impact</a></li>
                     <li><a href="#whyus">Why us</a></li>
-                    <li> <a class="talent-recruit" href="talent.html">Hire Talent</a></li>
+                    <li> 
+                        <button id="open" onclick="buttonOneClick('modal_1')" class="talent-recruit"> Hire Talent</button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -42,15 +44,14 @@
                     industries. We have access to the best pool of skills in the <br>
                     tech Industry</p>
                 <div>
-                    <a class="talent-recruit" href="talent.html">Hire Talent</a>
-                    <a class="talent-recruits" href="join.html">Join Talent pool</a>
+                   <button id="open" onclick="buttonOneClick('modal_1')" class="talent-recruit"> Hire Talent</button>
+                    <button id="open2" onclick="buttonOneClick('modal_2')" class="talent-recruits"> Join Talent pool</button>
                 </div>
             </div>
 
             <div class=" hey box1 d-flex">
 
                 <img class="image" src="section1.png" alt="">
-                
             </div>
         </section>
     </main>
@@ -67,7 +68,7 @@
                 <div class="country"><img src="GER.svg" alt=""></div>
                 <div class="country"><img src="pic2_files/ENG.svg" alt=""></div>
                 <div class="country"> <img src="ind.svg" alt=""></div>
-                <div class="country"><img src="NIG - Copy.svg" alt=""></div>
+                <div class="country"><img src="images/NIG.svg" alt=""></div>
                 <div class="country"> <img src="ussa.svg" alt=""></div>
             </div>
         </div>
@@ -102,45 +103,83 @@
         <div class="d-flex">
             <div class="girl1 part2">
                 <img src="images/people.svg" alt="">
-                
+
                 <p> Zuri Team has a highly skilled set of talents <br>
-                     that are built on referral and successful <br>
-                      partnerships.
+                    that are built on referral and successful <br>
+                    partnerships.
                 </p>
             </div>
             <div class="girl1 part2">
                 <img src="images/settinghead.svg" alt="">
                 <p>Our recruiters are exceptionally skilled in <br>
                     identifying top talent around the globe and <br>
-                     matching them with the client's needs.
+                    matching them with the client's needs.
                 </p>
             </div>
             <div class="girl1 part2">
                 <img src="images/handshake.svg" alt="">
                 <p> We have an 85% fill ratio for every open <br>
-                     position we partner for.
+                    position we partner for.
                 </p>
             </div>
         </div>
 
-            <section class="main-div1">
-                <div class="girl1 part2">
-                    <img src="images/note.svg" alt="">
+        <div class="d-flex">
+            <div class="girl1 part2">
+                <img src="images/note.svg" alt="">
                 <p>Contract renewal rate for our consultant is <br> 90 percent.
-                    </p>
-                </div>
-                <div class="girl1 part2">
-                    <img src="images/multiple.svg" alt="">
-                    <p>60% of our consultants are converted to <br>
-                         full-time employees.
-                    </p>
-                </div>
+                </p>
+            </div>
+            <div class="girl1 part2">
+                <img src="images/multiple.svg" alt="">
+                <p>60% of our consultants are converted to <br>
+                    full-time employees.
+                </p>
+            </div>
+        </div>
+     </section>
+      <div class="black">
+        <img src="images/logo2.svg" alt="">
+        <p>© Copyright 2022 ZURI TEAM. All rights Reserved</p>
+      </div>
 
-            </section>
-
+      <section id="modal_1" class="modal-class">
+        <div class="modal1" id="modal1">
+           <h1>Talent Recruitment</h1>   
+           <p>We will love to discuss your business and your <br> talent needs</p>  
+           <a  class="talent-recruit"href="https://docs.google.com/forms/d/e/1FAIpQLSdYdC1BffwmsdWZpS74Rvq6V_0kuN_HMlMwmoqUvI7WTEAHJg/viewform">
+            Fill this form
+           </a>
+           <h2>OR</h2>
+           <a class="talent-recruit" href="http://https://calendly.com/zuri-team/consult-with-seyi?month=2022-04">
+            Book a Consultation </a>
+        </div>
     </section>
+    <section id="modal_2" class="modal-class">
+        <div class="modal1" id="modal2">
+        <h1>Join Talent Pool</h1>
+        <p>Interested in joining our Talent Pool</p>
+        <a class="talent-recruit" href="http://https://docs.google.com/forms/d/e/1FAIpQLSenlbLaRmpPCRzby9DJ71pyChTBurIhcCFOyiZxEX1IMwxXtg/viewform">
+        Click here to sign up
+        </a>
+    </div>
+    </section>
+<script>
+    function buttonOneClick(id){
+        var modal1 = document.getElementById(id);
+        modal1.style.display = "flex";
+    }
 
+    var closeEvent = document.getElementById('modal_1');
+    closeEvent.addEventListener('click', () => {
+        closeEvent.style.display = "none"
+    });
 
+    var closeEvent2 = document.getElementById('modal_2');
+    closeEvent2.addEventListener('click', () => {
+        closeEvent2.style.display = "none"
+    });
+
+</script>
 </body>
-
 </html>
